@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_23_180238) do
+ActiveRecord::Schema.define(version: 2021_01_18_164915) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "citext"
@@ -464,6 +464,7 @@ ActiveRecord::Schema.define(version: 2020_11_23_180238) do
     t.datetime "updated_at", null: false
     t.text "about"
     t.jsonb "configuration", default: {}, null: false
+    t.datetime "deletion_initiated_at"
   end
 
   create_table "startup_feedback", id: :serial, force: :cascade do |t|

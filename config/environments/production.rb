@@ -148,5 +148,5 @@ Rails.application.configure do
         :password => ENV['MEMCACHEDCLOUD_PASSWORD'] })
   end
 
-  config.middleware.use RackThrottle::Rules, rules: rules, cache: cache, :key_prefix => :throttle, default: 20
+  # config.middleware.use RackThrottle::Rules, rules: rules, cache: cache, :key_prefix => :throttle, default: 20
 end

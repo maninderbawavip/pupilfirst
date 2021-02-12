@@ -11,7 +11,7 @@ Rails.application.configure do
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
   # Rake tasks automatically ignore this option for performance.
-  config.eager_load = true
+  config.eager_load = true  
 
   # Set up the slowpoke gem.
   config.slowpoke.timeout = ENV['SLOWPOKE_TIMEOUT']&.to_i || 15
@@ -110,7 +110,7 @@ Rails.application.configure do
   config.active_job.queue_adapter = :delayed_job
 
   # Do not display runtime information in production.
-  config.middleware.delete(Rack::Runtime)
+  # config.middleware.delete(Rack::Runtime)
 
   # Store files on Amazon S3.
   config.active_storage.service = :amazon
@@ -120,17 +120,17 @@ Rails.application.configure do
   config.action_mailer.postmark_settings = { api_token: ENV['POSTMARK_API_TOKEN'] }
 
   # Add the rack-cors middleware to serve CORS header for static assets
-  config.middleware.insert_before 0, Rack::Cors do
-    allow do
-      origins '*'
-      resource '/assets/*', methods: :get, headers: :any
-    end
+  # config.middleware.insert_before 0, Rack::Cors do
+  #   allow do
+  #     origins '*'
+  #     resource '/assets/*', methods: :get, headers: :any
+  #   end
 
-    allow do
-      origins '*'
-      resource '/assets/**/*', methods: :get, headers: :any
-    end
-  end
+  #   allow do
+  #     origins '*'
+  #     resource '/assets/**/*', methods: :get, headers: :any
+  #   end
+  # end
 
   # Add the GraphQL probe for Skylight.
   config.skylight.probes << "graphql"
@@ -148,5 +148,5 @@ Rails.application.configure do
         :password => ENV['MEMCACHEDCLOUD_PASSWORD'] })
   end
 
-  # config.middleware.use RackThrottle::Rules, rules: rules, cache: cache, :key_prefix => :throttle, default: 20
+  config.middleware.use RackThrottle::Rules, rules: rules, cache: cache, :key_prefix => :throttle, default: 20
 end

@@ -15,7 +15,6 @@ test:
 
 production:
   adapter: postgresql
-  host: <%= ENV['DB_HOST'] || localhost %>
   username: <%= ENV['DB_USERNAME'] || ubuntu %>
   password: <%= ENV['DB_PASSWORD'] || ubuntu %>
   database: <%= ENV['DB_NAME'] || pupilfirst %>

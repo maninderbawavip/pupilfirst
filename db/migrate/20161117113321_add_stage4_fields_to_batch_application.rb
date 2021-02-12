@@ -1,4 +1,4 @@
-class AddStage4FieldsToBatchApplication < ActiveRecord::Migration[6.0.3][5.0]
+class AddStage4FieldsToBatchApplication < ActiveRecord::Migration[6.0][5.0]
   def change
     add_column :batch_applications, :courier_name, :string
     add_column :batch_applications, :courier_number, :string

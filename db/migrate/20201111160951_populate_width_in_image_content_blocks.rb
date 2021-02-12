@@ -1,4 +1,4 @@
-class PopulateWidthInImageContentBlocks < ActiveRecord::Migration[6.0.3][6.0]
+class PopulateWidthInImageContentBlocks < ActiveRecord::Migration[6.0][6.0]
   class ContentBlock < ApplicationRecord
   end
 

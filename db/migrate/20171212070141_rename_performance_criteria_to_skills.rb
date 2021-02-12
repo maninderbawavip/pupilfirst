@@ -1,4 +1,4 @@
-class RenamePerformanceCriteriaToSkills < ActiveRecord::Migration[6.0.3][5.1]
+class RenamePerformanceCriteriaToSkills < ActiveRecord::Migration[6.0][5.1]
   def change
     rename_table :performance_criteria, :skills
     rename_table :target_performance_criteria, :target_skills

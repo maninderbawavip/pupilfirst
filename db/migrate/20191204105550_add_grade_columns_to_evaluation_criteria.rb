@@ -1,4 +1,4 @@
-class AddGradeColumnsToEvaluationCriteria < ActiveRecord::Migration[6.0.3][6.0]
+class AddGradeColumnsToEvaluationCriteria < ActiveRecord::Migration[6.0][6.0]
   class Course < ActiveRecord::Base
   end
 

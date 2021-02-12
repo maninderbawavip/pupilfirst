@@ -1,4 +1,4 @@
-class AddShareStatusAndSharedWithBatchToResources < ActiveRecord::Migration[6.0.3]
+class AddShareStatusAndSharedWithBatchToResources < ActiveRecord::Migration[6.0]
   def change
     add_column :resources, :share_status, :string
     add_column :resources, :shared_with_batch, :integer

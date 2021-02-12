@@ -1,4 +1,4 @@
-class AddProductNameAndDescriptionToStartup < ActiveRecord::Migration[6.0.3]
+class AddProductNameAndDescriptionToStartup < ActiveRecord::Migration[6.0]
   def change
     add_column :startups, :product_name, :string
     add_column :startups, :product_description, :string

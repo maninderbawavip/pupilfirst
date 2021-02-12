@@ -1,4 +1,4 @@
-class MoveExitedFromFoundersToDroppedOutInStartupTable < ActiveRecord::Migration[6.0.3][6.0]
+class MoveExitedFromFoundersToDroppedOutInStartupTable < ActiveRecord::Migration[6.0][6.0]
   class User < ActiveRecord::Base
     has_many :founders
   end

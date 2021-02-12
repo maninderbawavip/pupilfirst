@@ -1,4 +1,4 @@
-class AddPreferencesToUser < ActiveRecord::Migration[6.0.3][5.2]
+class AddPreferencesToUser < ActiveRecord::Migration[6.0][5.2]
   def change
     add_column :users, :preferences, :jsonb, null: false, default: '{}'
   end

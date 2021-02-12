@@ -1,4 +1,4 @@
-class CreateCommunityV2Tables < ActiveRecord::Migration[6.0.3][6.0]
+class CreateCommunityV2Tables < ActiveRecord::Migration[6.0][6.0]
   class Topic < ApplicationRecord
     has_many :posts
   end

@@ -1,4 +1,4 @@
-class CreateApplicationFounders < ActiveRecord::Migration[6.0.3]
+class CreateApplicationFounders < ActiveRecord::Migration[6.0]
   def change
     create_table :application_founders do |t|
       t.references :batch_application, index: true

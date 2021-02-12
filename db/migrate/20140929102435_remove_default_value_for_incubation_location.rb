@@ -1,4 +1,4 @@
-class RemoveDefaultValueForIncubationLocation < ActiveRecord::Migration[6.0.3]
+class RemoveDefaultValueForIncubationLocation < ActiveRecord::Migration[6.0]
   def up
     change_column :startups, :incubation_location, :string, default: nil
   end

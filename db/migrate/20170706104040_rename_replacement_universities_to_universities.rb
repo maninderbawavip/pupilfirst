@@ -1,4 +1,4 @@
-class RenameReplacementUniversitiesToUniversities < ActiveRecord::Migration[6.0.3][5.1]
+class RenameReplacementUniversitiesToUniversities < ActiveRecord::Migration[6.0][5.1]
   def change
     rename_table :replacement_universities, :universities
     rename_column :colleges, :replacement_university_id, :university_id

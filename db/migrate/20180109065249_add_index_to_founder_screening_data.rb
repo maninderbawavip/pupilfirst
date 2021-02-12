@@ -1,4 +1,4 @@
-class AddIndexToFounderScreeningData < ActiveRecord::Migration[6.0.3][5.1]
+class AddIndexToFounderScreeningData < ActiveRecord::Migration[6.0][5.1]
   def change
     add_index :founders, "(screening_data->'score')", using: :gin, name: 'index_founders_on_screening_data_score'
   end

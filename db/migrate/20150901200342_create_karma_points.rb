@@ -1,4 +1,4 @@
-class CreateKarmaPoints < ActiveRecord::Migration[6.0.3]
+class CreateKarmaPoints < ActiveRecord::Migration[6.0]
   def change
     create_table :karma_points do |t|
       t.references :user, index: true, foreign_key: true

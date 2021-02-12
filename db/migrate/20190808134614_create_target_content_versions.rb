@@ -1,4 +1,4 @@
-class CreateTargetContentVersions < ActiveRecord::Migration[6.0.3][5.2]
+class CreateTargetContentVersions < ActiveRecord::Migration[6.0][5.2]
   def change
     create_table :target_content_versions do |t|
       t.references :target, foreign_key: true

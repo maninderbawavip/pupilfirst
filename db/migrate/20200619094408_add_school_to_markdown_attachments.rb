@@ -1,4 +1,4 @@
-class AddSchoolToMarkdownAttachments < ActiveRecord::Migration[6.0.3][6.0]
+class AddSchoolToMarkdownAttachments < ActiveRecord::Migration[6.0][6.0]
   class MarkdownAttachment < ApplicationRecord
     belongs_to :user
   end

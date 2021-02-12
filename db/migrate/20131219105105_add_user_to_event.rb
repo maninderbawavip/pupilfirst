@@ -1,4 +1,4 @@
-class AddUserToEvent < ActiveRecord::Migration[6.0.3]
+class AddUserToEvent < ActiveRecord::Migration[6.0]
   def change
     add_reference :events, :user, index: true
   end

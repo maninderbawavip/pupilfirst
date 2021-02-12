@@ -1,4 +1,4 @@
-class CreateCoachEnrollmentsForTeamCoaches < ActiveRecord::Migration[6.0.3][6.0]
+class CreateCoachEnrollmentsForTeamCoaches < ActiveRecord::Migration[6.0][6.0]
   class Faculty < ActiveRecord::Base
     has_many :faculty_course_enrollments, dependent: :destroy
     has_many :faculty_startup_enrollments, dependent: :destroy

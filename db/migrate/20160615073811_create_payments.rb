@@ -1,4 +1,4 @@
-class CreatePayments < ActiveRecord::Migration[6.0.3]
+class CreatePayments < ActiveRecord::Migration[6.0]
   def change
     create_table :payments do |t|
       t.references :batch_application, index: true, foreign_key: true

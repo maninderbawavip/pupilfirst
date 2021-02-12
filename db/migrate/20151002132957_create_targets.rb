@@ -1,4 +1,4 @@
-class CreateTargets < ActiveRecord::Migration[6.0.3]
+class CreateTargets < ActiveRecord::Migration[6.0]
   def change
     create_table :targets do |t|
       t.string :role

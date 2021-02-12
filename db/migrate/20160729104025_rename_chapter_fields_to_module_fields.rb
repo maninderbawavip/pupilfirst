@@ -1,4 +1,4 @@
-class RenameChapterFieldsToModuleFields < ActiveRecord::Migration[6.0.3]
+class RenameChapterFieldsToModuleFields < ActiveRecord::Migration[6.0]
   def change
     rename_column :course_modules, :chapter_number, :module_number
     rename_column :chapter_sections, :course_chapter_id, :course_module_id

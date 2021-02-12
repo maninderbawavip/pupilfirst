@@ -1,4 +1,4 @@
-class AddExitedToFounders < ActiveRecord::Migration[6.0.3]
+class AddExitedToFounders < ActiveRecord::Migration[6.0]
   def change
     add_column :founders, :exited, :boolean, default: false
   end

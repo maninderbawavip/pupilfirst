@@ -1,4 +1,4 @@
-class DropTablesForActsAsTaggable < ActiveRecord::Migration[6.0.3]
+class DropTablesForActsAsTaggable < ActiveRecord::Migration[6.0]
   def up
     drop_table :taggings
     drop_table :tags

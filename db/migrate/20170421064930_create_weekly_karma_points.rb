@@ -1,4 +1,4 @@
-class CreateWeeklyKarmaPoints < ActiveRecord::Migration[6.0.3][5.0]
+class CreateWeeklyKarmaPoints < ActiveRecord::Migration[6.0][5.0]
   def change
     create_table :weekly_karma_points do |t|
       t.datetime :week_starting_at

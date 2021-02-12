@@ -1,4 +1,4 @@
-class DropDeviceFieldsFromFounder < ActiveRecord::Migration[6.0.3][5.0]
+class DropDeviceFieldsFromFounder < ActiveRecord::Migration[6.0][5.0]
   def change
     remove_column :founders, :encrypted_password, :string
     remove_column :founders, :reset_password_token, :string

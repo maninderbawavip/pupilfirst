@@ -1,4 +1,4 @@
-class CreateStartupQuotes < ActiveRecord::Migration[6.0.3][5.1]
+class CreateStartupQuotes < ActiveRecord::Migration[6.0][5.1]
   def change
     create_table :startup_quotes do |t|
       t.string :guid

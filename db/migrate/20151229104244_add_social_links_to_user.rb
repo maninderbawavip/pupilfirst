@@ -1,4 +1,4 @@
-class AddSocialLinksToUser < ActiveRecord::Migration[6.0.3]
+class AddSocialLinksToUser < ActiveRecord::Migration[6.0]
   def change
     add_column :users, :personal_website_url, :string
     add_column :users, :blog_url, :string

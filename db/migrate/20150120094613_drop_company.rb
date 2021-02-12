@@ -1,4 +1,4 @@
-class DropCompany < ActiveRecord::Migration[6.0.3]
+class DropCompany < ActiveRecord::Migration[6.0]
   def change
   	drop_table :companies
   end

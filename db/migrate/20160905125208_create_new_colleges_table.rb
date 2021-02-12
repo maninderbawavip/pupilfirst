@@ -1,4 +1,4 @@
-class CreateNewCollegesTable < ActiveRecord::Migration[6.0.3]
+class CreateNewCollegesTable < ActiveRecord::Migration[6.0]
   def change
     create_table :colleges do |t|
       t.string :name

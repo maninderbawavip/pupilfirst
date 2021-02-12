@@ -1,4 +1,4 @@
-class RemoveSalaryMinAndMaxFromStartupJob < ActiveRecord::Migration[6.0.3]
+class RemoveSalaryMinAndMaxFromStartupJob < ActiveRecord::Migration[6.0]
   def up
     remove_column :startup_jobs, :salary_max
     remove_column :startup_jobs, :salary_min

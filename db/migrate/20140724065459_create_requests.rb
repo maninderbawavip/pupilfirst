@@ -1,4 +1,4 @@
-class CreateRequests < ActiveRecord::Migration[6.0.3]
+class CreateRequests < ActiveRecord::Migration[6.0]
   def change
     create_table :requests do |t|
       t.text :body

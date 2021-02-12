@@ -1,4 +1,4 @@
-class DropTableEvents < ActiveRecord::Migration[6.0.3]
+class DropTableEvents < ActiveRecord::Migration[6.0]
   def up
     drop_table :events
   end

@@ -1,4 +1,4 @@
-class RemoveUniversitiesTable < ActiveRecord::Migration[6.0.3][5.1]
+class RemoveUniversitiesTable < ActiveRecord::Migration[6.0][5.1]
   def up
     drop_table :universities
   end

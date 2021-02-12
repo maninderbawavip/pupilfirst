@@ -1,4 +1,4 @@
-class AddStudentDetailsToUser < ActiveRecord::Migration[6.0.3]
+class AddStudentDetailsToUser < ActiveRecord::Migration[6.0]
   def change
     add_column :users, :is_student, :boolean
     add_column :users, :college, :string

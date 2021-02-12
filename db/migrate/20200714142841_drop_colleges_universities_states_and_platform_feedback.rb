@@ -1,4 +1,4 @@
-class DropCollegesUniversitiesStatesAndPlatformFeedback < ActiveRecord::Migration[6.0.3][6.0]
+class DropCollegesUniversitiesStatesAndPlatformFeedback < ActiveRecord::Migration[6.0][6.0]
   def up
     remove_reference :founders, :college, foreign_key: true
     remove_column :founders, :university_id

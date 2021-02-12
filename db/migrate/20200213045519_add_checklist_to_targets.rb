@@ -1,4 +1,4 @@
-class AddChecklistToTargets < ActiveRecord::Migration[6.0.3][6.0]
+class AddChecklistToTargets < ActiveRecord::Migration[6.0][6.0]
   class TargetEvaluationCriterion < ApplicationRecord
     belongs_to :target
   end

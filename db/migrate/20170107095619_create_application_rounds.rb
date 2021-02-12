@@ -1,4 +1,4 @@
-class CreateApplicationRounds < ActiveRecord::Migration[6.0.3][5.0]
+class CreateApplicationRounds < ActiveRecord::Migration[6.0][5.0]
   def change
     create_table :application_rounds do |t|
       t.references :batch, foreign_key: true

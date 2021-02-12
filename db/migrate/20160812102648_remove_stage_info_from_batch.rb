@@ -1,4 +1,4 @@
-class RemoveStageInfoFromBatch < ActiveRecord::Migration[6.0.3]
+class RemoveStageInfoFromBatch < ActiveRecord::Migration[6.0]
   def change
     remove_reference :batches, :application_stage
     remove_column :batches, :application_stage_deadline, :datetime

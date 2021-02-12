@@ -1,4 +1,4 @@
-class CreateBatchStages < ActiveRecord::Migration[6.0.3]
+class CreateBatchStages < ActiveRecord::Migration[6.0]
   def change
     create_table :batch_stages do |t|
       t.references :batch, index: true

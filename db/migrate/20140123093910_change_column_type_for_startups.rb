@@ -1,4 +1,4 @@
-class ChangeColumnTypeForStartups < ActiveRecord::Migration[6.0.3]
+class ChangeColumnTypeForStartups < ActiveRecord::Migration[6.0]
   def self.up
    change_column :startups, :about, :text
   end

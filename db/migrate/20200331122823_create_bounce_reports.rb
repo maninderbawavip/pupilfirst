@@ -1,4 +1,4 @@
-class CreateBounceReports < ActiveRecord::Migration[6.0.3][6.0]
+class CreateBounceReports < ActiveRecord::Migration[6.0][6.0]
   class User < ActiveRecord::Base
   end
 

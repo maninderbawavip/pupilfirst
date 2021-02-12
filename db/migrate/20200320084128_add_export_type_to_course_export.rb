@@ -1,4 +1,4 @@
-class AddExportTypeToCourseExport < ActiveRecord::Migration[6.0.3][6.0]
+class AddExportTypeToCourseExport < ActiveRecord::Migration[6.0][6.0]
   class CourseExport < ActiveRecord::Base
   end
 

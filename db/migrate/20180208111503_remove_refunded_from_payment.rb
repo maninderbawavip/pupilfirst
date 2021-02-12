@@ -1,4 +1,4 @@
-class RemoveRefundedFromPayment < ActiveRecord::Migration[6.0.3][5.1]
+class RemoveRefundedFromPayment < ActiveRecord::Migration[6.0][5.1]
   def change
     remove_column :payments, :refunded
   end

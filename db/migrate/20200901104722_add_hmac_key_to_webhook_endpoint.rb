@@ -1,4 +1,4 @@
-class AddHmacKeyToWebhookEndpoint < ActiveRecord::Migration[6.0.3][6.0]
+class AddHmacKeyToWebhookEndpoint < ActiveRecord::Migration[6.0][6.0]
   class WebhookEndpoint < ApplicationRecord
   end
 

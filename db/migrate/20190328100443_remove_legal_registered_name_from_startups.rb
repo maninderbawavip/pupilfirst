@@ -1,4 +1,4 @@
-class RemoveLegalRegisteredNameFromStartups < ActiveRecord::Migration[6.0.3][5.2]
+class RemoveLegalRegisteredNameFromStartups < ActiveRecord::Migration[6.0][5.2]
   def change
     remove_column :startups, :legal_registered_name
   end

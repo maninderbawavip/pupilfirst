@@ -1,4 +1,4 @@
-class AddProductVideoToStartup < ActiveRecord::Migration[6.0.3]
+class AddProductVideoToStartup < ActiveRecord::Migration[6.0]
   def change
     add_column :startups, :product_video, :string
   end

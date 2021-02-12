@@ -1,4 +1,4 @@
-class RenameUserToFounder < ActiveRecord::Migration[6.0.3]
+class RenameUserToFounder < ActiveRecord::Migration[6.0]
   def change
     rename_table :users, :founders
   end

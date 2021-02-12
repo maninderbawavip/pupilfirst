@@ -1,4 +1,4 @@
-class CreateCertificateTables < ActiveRecord::Migration[6.0.3][6.0]
+class CreateCertificateTables < ActiveRecord::Migration[6.0][6.0]
   def change
     create_table :certificates do |t|
       t.references :course, foreign_key: true, null: false

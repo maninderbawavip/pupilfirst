@@ -1,4 +1,4 @@
-class RemoveStartupLinkFieldsFromUser < ActiveRecord::Migration[6.0.3]
+class RemoveStartupLinkFieldsFromUser < ActiveRecord::Migration[6.0]
   def up
     remove_columns :users, :startup_link_verifier_id, :startup_verifier_token
   end

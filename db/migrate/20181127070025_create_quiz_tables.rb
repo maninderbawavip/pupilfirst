@@ -1,4 +1,4 @@
-class CreateQuizTables < ActiveRecord::Migration[6.0.3][5.2]
+class CreateQuizTables < ActiveRecord::Migration[6.0][5.2]
   def change
     create_table :quizzes do |t|
       t.string :title

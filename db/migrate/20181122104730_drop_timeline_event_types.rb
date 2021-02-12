@@ -1,4 +1,4 @@
-class DropTimelineEventTypes < ActiveRecord::Migration[6.0.3][5.2]
+class DropTimelineEventTypes < ActiveRecord::Migration[6.0][5.2]
   def up
     drop_table :timeline_event_types
     remove_column :timeline_events, :timeline_event_type_id, :integer, index:true

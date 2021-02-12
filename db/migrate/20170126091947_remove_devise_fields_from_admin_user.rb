@@ -1,4 +1,4 @@
-class RemoveDeviseFieldsFromAdminUser < ActiveRecord::Migration[6.0.3][5.0]
+class RemoveDeviseFieldsFromAdminUser < ActiveRecord::Migration[6.0][5.0]
   def change
     remove_column :admin_users, :encrypted_password, :string, :null => false, :default => ''
     remove_column :admin_users, :reset_password_token, :string

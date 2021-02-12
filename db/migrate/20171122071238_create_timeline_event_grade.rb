@@ -1,4 +1,4 @@
-class CreateTimelineEventGrade < ActiveRecord::Migration[6.0.3][5.1]
+class CreateTimelineEventGrade < ActiveRecord::Migration[6.0][5.1]
   def change
     create_table :timeline_event_grades do |t|
       t.references :timeline_event

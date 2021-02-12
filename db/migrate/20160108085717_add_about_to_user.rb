@@ -1,4 +1,4 @@
-class AddAboutToUser < ActiveRecord::Migration[6.0.3]
+class AddAboutToUser < ActiveRecord::Migration[6.0]
   def change
     add_column :users, :about, :string
   end

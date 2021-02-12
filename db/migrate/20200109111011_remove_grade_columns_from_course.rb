@@ -1,4 +1,4 @@
-class RemoveGradeColumnsFromCourse < ActiveRecord::Migration[6.0.3][6.0]
+class RemoveGradeColumnsFromCourse < ActiveRecord::Migration[6.0][6.0]
   def change
     remove_column :courses, :max_grade, :integer
     remove_column :courses, :pass_grade, :integer

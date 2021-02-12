@@ -1,4 +1,4 @@
-class DropCategoriesUsersTable < ActiveRecord::Migration[6.0.3]
+class DropCategoriesUsersTable < ActiveRecord::Migration[6.0]
   def up
     drop_table :categories_users
   end

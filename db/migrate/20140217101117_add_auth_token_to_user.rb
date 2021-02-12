@@ -1,4 +1,4 @@
-class AddAuthTokenToUser < ActiveRecord::Migration[6.0.3]
+class AddAuthTokenToUser < ActiveRecord::Migration[6.0]
   def self.up
     add_column :users, :auth_token, :string
     User.all.each{|u| u.update_attributes(auth_token: SecureRandom.hex(30))}

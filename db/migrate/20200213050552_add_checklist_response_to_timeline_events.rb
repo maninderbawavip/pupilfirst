@@ -1,4 +1,4 @@
-class AddChecklistResponseToTimelineEvents < ActiveRecord::Migration[6.0.3][6.0]
+class AddChecklistResponseToTimelineEvents < ActiveRecord::Migration[6.0][6.0]
   class TimelineEventFile < ActiveRecord::Base
     has_one :timeline_event
   end

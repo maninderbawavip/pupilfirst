@@ -1,4 +1,4 @@
-class AddOriginalStartupIdToPayment < ActiveRecord::Migration[6.0.3][5.0]
+class AddOriginalStartupIdToPayment < ActiveRecord::Migration[6.0][5.0]
   def change
     add_column :payments, :original_startup_id, :integer
     add_index :payments, :original_startup_id

@@ -1,4 +1,4 @@
-class RemoveCarrierWaveUploaderFields < ActiveRecord::Migration[6.0.3][5.2]
+class RemoveCarrierWaveUploaderFields < ActiveRecord::Migration[6.0][5.2]
   def change
     remove_column :founders, :avatar, :string
     remove_column :timeline_event_files, :file, :string

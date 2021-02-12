@@ -1,4 +1,4 @@
-class AddApplicants < ActiveRecord::Migration[6.0.3][5.2]
+class AddApplicants < ActiveRecord::Migration[6.0][5.2]
   def up
     create_table :applicants do |t|
       t.string :email

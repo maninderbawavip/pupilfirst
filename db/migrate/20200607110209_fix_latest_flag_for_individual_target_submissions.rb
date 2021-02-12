@@ -1,4 +1,4 @@
-class FixLatestFlagForIndividualTargetSubmissions < ActiveRecord::Migration[6.0.3][6.0]
+class FixLatestFlagForIndividualTargetSubmissions < ActiveRecord::Migration[6.0][6.0]
   class TimelineEvent < ApplicationRecord
     has_many :timeline_event_owners
     belongs_to :target

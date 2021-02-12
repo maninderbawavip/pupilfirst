@@ -1,4 +1,4 @@
-class ReplaceFounderWithQuizee < ActiveRecord::Migration[6.0.3][5.1]
+class ReplaceFounderWithQuizee < ActiveRecord::Migration[6.0][5.1]
   def change
     rename_column :english_quiz_submissions, :founder_id, :quizee_id
     add_column :english_quiz_submissions, :quizee_type, :string

@@ -1,4 +1,4 @@
-class AddLevelUnlockConfigColumns < ActiveRecord::Migration[6.0.3][6.0]
+class AddLevelUnlockConfigColumns < ActiveRecord::Migration[6.0][6.0]
   class Course < ApplicationRecord
   end
 

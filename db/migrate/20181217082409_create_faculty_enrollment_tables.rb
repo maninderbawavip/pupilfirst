@@ -1,4 +1,4 @@
-class CreateFacultyEnrollmentTables < ActiveRecord::Migration[6.0.3][5.2]
+class CreateFacultyEnrollmentTables < ActiveRecord::Migration[6.0][5.2]
   def change
     create_table :faculty_course_enrollments do |t|
       t.references :faculty, foreign_key: true

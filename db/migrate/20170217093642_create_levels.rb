@@ -1,4 +1,4 @@
-class CreateLevels < ActiveRecord::Migration[6.0.3][5.0]
+class CreateLevels < ActiveRecord::Migration[6.0][5.0]
   def change
     create_table :levels do |t|
       t.string :name

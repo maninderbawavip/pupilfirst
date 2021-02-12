@@ -1,4 +1,4 @@
-class RemoveLoginFieldsFromBatchApplicant < ActiveRecord::Migration[6.0.3][5.0]
+class RemoveLoginFieldsFromBatchApplicant < ActiveRecord::Migration[6.0][5.0]
   def change
     remove_column :batch_applicants, :token, :string
     remove_column :batch_applicants, :sign_in_email_sent_at, :datetime

@@ -1,4 +1,4 @@
-class AddSlackFieldsToFaculty < ActiveRecord::Migration[6.0.3]
+class AddSlackFieldsToFaculty < ActiveRecord::Migration[6.0]
   def change
     add_column :faculty, :slack_username, :string
     add_column :faculty, :slack_user_id, :string

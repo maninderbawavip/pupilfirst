@@ -1,4 +1,4 @@
-class RenameBatchStageToRoundStage < ActiveRecord::Migration[6.0.3][5.0]
+class RenameBatchStageToRoundStage < ActiveRecord::Migration[6.0][5.0]
   def change
     rename_table :batch_stages, :round_stages
     remove_reference :round_stages, :batch

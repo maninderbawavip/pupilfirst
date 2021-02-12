@@ -1,4 +1,4 @@
-class CreateLatestSubmissionRecords < ActiveRecord::Migration[6.0.3][5.2]
+class CreateLatestSubmissionRecords < ActiveRecord::Migration[6.0][5.2]
   def change
     create_table :latest_submission_records do |t|
       t.references :founder, foreign_key: true

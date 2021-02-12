@@ -1,4 +1,4 @@
-class AddTypeToCategories < ActiveRecord::Migration[6.0.3]
+class AddTypeToCategories < ActiveRecord::Migration[6.0]
   def self.up
     add_column :categories, :category_type, :string
     add_index :categories, :category_type

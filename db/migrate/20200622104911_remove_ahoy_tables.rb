@@ -1,4 +1,4 @@
-class RemoveAhoyTables < ActiveRecord::Migration[6.0.3][6.0]
+class RemoveAhoyTables < ActiveRecord::Migration[6.0][6.0]
   def up
     drop_table :ahoy_events
     drop_table :visits

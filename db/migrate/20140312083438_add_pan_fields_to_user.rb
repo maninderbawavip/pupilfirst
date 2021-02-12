@@ -1,4 +1,4 @@
-class AddPanFieldsToUser < ActiveRecord::Migration[6.0.3]
+class AddPanFieldsToUser < ActiveRecord::Migration[6.0]
   def change
     add_column :users, :pan, :string
     add_column :users, :din, :string

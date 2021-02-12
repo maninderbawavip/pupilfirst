@@ -1,4 +1,4 @@
-class RemoveUnusedColumnsFromTimelineEvents < ActiveRecord::Migration[6.0.3][5.2]
+class RemoveUnusedColumnsFromTimelineEvents < ActiveRecord::Migration[6.0][5.2]
   def change
     remove_column :timeline_events, :status
     remove_column :timeline_events, :status_updated_at

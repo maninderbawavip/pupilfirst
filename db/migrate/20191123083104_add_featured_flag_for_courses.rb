@@ -1,4 +1,4 @@
-class AddFeaturedFlagForCourses < ActiveRecord::Migration[6.0.3][6.0]
+class AddFeaturedFlagForCourses < ActiveRecord::Migration[6.0][6.0]
   def change
     add_column :courses, :featured, :boolean, default: true
   end

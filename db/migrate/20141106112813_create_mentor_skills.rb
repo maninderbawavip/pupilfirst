@@ -1,4 +1,4 @@
-class CreateMentorSkills < ActiveRecord::Migration[6.0.3]
+class CreateMentorSkills < ActiveRecord::Migration[6.0]
   def change
     create_table :mentor_skills do |t|
       t.references :mentor, index: true

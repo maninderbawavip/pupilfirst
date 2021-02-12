@@ -1,4 +1,4 @@
-class AddFeedbackFieldsToConnectRequest < ActiveRecord::Migration[6.0.3]
+class AddFeedbackFieldsToConnectRequest < ActiveRecord::Migration[6.0]
   def change
     add_column :connect_requests, :feedback_mails_sent_at, :datetime
     add_column :connect_requests, :rating_of_faculty, :integer

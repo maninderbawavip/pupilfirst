@@ -1,4 +1,4 @@
-class CreateStatistics < ActiveRecord::Migration[6.0.3]
+class CreateStatistics < ActiveRecord::Migration[6.0]
   def change
     create_table :statistics do |t|
       t.string :parameter

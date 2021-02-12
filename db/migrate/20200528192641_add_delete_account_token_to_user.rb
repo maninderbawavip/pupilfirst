@@ -1,4 +1,4 @@
-class AddDeleteAccountTokenToUser < ActiveRecord::Migration[6.0.3][6.0]
+class AddDeleteAccountTokenToUser < ActiveRecord::Migration[6.0][6.0]
   def up
     add_column :users, :delete_account_token, :string
     add_column :users, :delete_account_sent_at, :datetime

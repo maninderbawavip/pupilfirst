@@ -1,4 +1,4 @@
-class RemoveLevelZeroFields < ActiveRecord::Migration[6.0.3][5.2]
+class RemoveLevelZeroFields < ActiveRecord::Migration[6.0][5.2]
   def change
     remove_column :startups, :pitch
     remove_column :startups, :registration_type

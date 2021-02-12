@@ -1,4 +1,4 @@
-class ChangeLevelUnlockOnToUnlockAt < ActiveRecord::Migration[6.0.3][6.0]
+class ChangeLevelUnlockOnToUnlockAt < ActiveRecord::Migration[6.0][6.0]
   def up
     change_column :levels, :unlock_on, :datetime
     rename_column :levels, :unlock_on, :unlock_at

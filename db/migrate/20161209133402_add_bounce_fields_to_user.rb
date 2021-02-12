@@ -1,4 +1,4 @@
-class AddBounceFieldsToUser < ActiveRecord::Migration[6.0.3][5.0]
+class AddBounceFieldsToUser < ActiveRecord::Migration[6.0][5.0]
   def change
     add_column :users, :email_bounced, :boolean
     add_column :users, :email_bounced_at, :datetime

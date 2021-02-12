@@ -1,4 +1,4 @@
-class DropStartupQuotes < ActiveRecord::Migration[6.0.3][5.2]
+class DropStartupQuotes < ActiveRecord::Migration[6.0][5.2]
   def up
     drop_table :startup_quotes
   end

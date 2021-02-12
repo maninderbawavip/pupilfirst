@@ -1,4 +1,4 @@
-class CreatePerformanceCriteria < ActiveRecord::Migration[6.0.3][5.1]
+class CreatePerformanceCriteria < ActiveRecord::Migration[6.0][5.1]
   def change
     create_table :performance_criteria do |t|
       t.string :description

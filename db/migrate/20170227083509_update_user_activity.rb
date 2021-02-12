@@ -1,4 +1,4 @@
-class UpdateUserActivity < ActiveRecord::Migration[6.0.3][5.0]
+class UpdateUserActivity < ActiveRecord::Migration[6.0][5.0]
   def change
     change_table :user_activities do |t|
       t.timestamps

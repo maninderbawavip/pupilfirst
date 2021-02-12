@@ -1,4 +1,4 @@
-class CreateSchoolStrings < ActiveRecord::Migration[6.0.3][5.2]
+class CreateSchoolStrings < ActiveRecord::Migration[6.0][5.2]
   def change
     create_table :school_strings do |t|
       t.references :school, foreign_key: true, index: false

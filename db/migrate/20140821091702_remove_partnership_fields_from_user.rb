@@ -1,4 +1,4 @@
-class RemovePartnershipFieldsFromUser < ActiveRecord::Migration[6.0.3]
+class RemovePartnershipFieldsFromUser < ActiveRecord::Migration[6.0]
   def up
     remove_column :users, :operate_bank_account
     remove_column :users, :share_percentage

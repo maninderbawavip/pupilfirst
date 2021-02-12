@@ -1,4 +1,4 @@
-class AddNotificationsTable < ActiveRecord::Migration[6.0.3][6.0]
+class AddNotificationsTable < ActiveRecord::Migration[6.0][6.0]
   def change
     create_table :notifications do |t|
       t.references :actor

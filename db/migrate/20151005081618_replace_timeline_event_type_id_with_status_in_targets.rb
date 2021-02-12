@@ -1,4 +1,4 @@
-class ReplaceTimelineEventTypeIdWithStatusInTargets < ActiveRecord::Migration[6.0.3]
+class ReplaceTimelineEventTypeIdWithStatusInTargets < ActiveRecord::Migration[6.0]
   def up
     remove_column :targets, :timeline_event_type_id
     add_column :targets, :status, :string

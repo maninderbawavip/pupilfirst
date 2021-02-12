@@ -1,4 +1,4 @@
-class RemoveAuthorIdFromStartupFeedback < ActiveRecord::Migration[6.0.3]
+class RemoveAuthorIdFromStartupFeedback < ActiveRecord::Migration[6.0]
   def up
     remove_column :startup_feedback, :author_id
   end

@@ -1,4 +1,4 @@
-class RenameDbConfigToFeature < ActiveRecord::Migration[6.0.3]
+class RenameDbConfigToFeature < ActiveRecord::Migration[6.0]
   def change
     rename_table :db_configs, :features
   end

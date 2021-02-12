@@ -1,4 +1,4 @@
-class AddCompletionInstructionsAndDueDateToTargets < ActiveRecord::Migration[6.0.3]
+class AddCompletionInstructionsAndDueDateToTargets < ActiveRecord::Migration[6.0]
   def change
     add_column :targets, :completion_instructions, :string
     add_column :targets, :due_date, :datetime

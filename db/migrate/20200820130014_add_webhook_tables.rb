@@ -1,4 +1,4 @@
-class AddWebhookTables < ActiveRecord::Migration[6.0.3][6.0]
+class AddWebhookTables < ActiveRecord::Migration[6.0][6.0]
   def change
     create_table :webhook_endpoints do |t|
       t.references :course, null: false, index: { unique: true }, foreign_key: true

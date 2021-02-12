@@ -1,4 +1,4 @@
-class CreateTimelineEvents < ActiveRecord::Migration[6.0.3]
+class CreateTimelineEvents < ActiveRecord::Migration[6.0]
   def change
     create_table :timeline_events do |t|
       t.integer :iteration

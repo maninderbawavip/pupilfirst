@@ -1,4 +1,4 @@
-class DropLocation < ActiveRecord::Migration[6.0.3]
+class DropLocation < ActiveRecord::Migration[6.0]
   def change
     drop_table :locations
   end

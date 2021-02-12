@@ -1,4 +1,4 @@
-class CreateShortenedUrlsTable < ActiveRecord::Migration[6.0.3]
+class CreateShortenedUrlsTable < ActiveRecord::Migration[6.0]
   def change
     create_table :shortened_urls do |t|
       # we can link this to a user for interesting things

@@ -1,4 +1,4 @@
-class CreateDomains < ActiveRecord::Migration[6.0.3][5.2]
+class CreateDomains < ActiveRecord::Migration[6.0][5.2]
   def change
     create_table :domains do |t|
       t.references :school, foreign_key: true, index: true

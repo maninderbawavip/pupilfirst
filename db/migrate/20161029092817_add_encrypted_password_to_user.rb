@@ -1,4 +1,4 @@
-class AddEncryptedPasswordToUser < ActiveRecord::Migration[6.0.3][5.0]
+class AddEncryptedPasswordToUser < ActiveRecord::Migration[6.0][5.0]
   def change
     add_column :users, :encrypted_password, :string, default: "", null: false
   end

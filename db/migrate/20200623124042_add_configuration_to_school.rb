@@ -1,4 +1,4 @@
-class AddConfigurationToSchool < ActiveRecord::Migration[6.0.3][6.0]
+class AddConfigurationToSchool < ActiveRecord::Migration[6.0][6.0]
   def change
     add_column :schools, :configuration, :jsonb, default: {}, null: false
   end

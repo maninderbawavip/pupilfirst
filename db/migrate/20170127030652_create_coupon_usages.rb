@@ -1,4 +1,4 @@
-class CreateCouponUsages < ActiveRecord::Migration[6.0.3][5.0]
+class CreateCouponUsages < ActiveRecord::Migration[6.0][5.0]
   def change
     create_table :coupon_usages do |t|
       t.integer :coupon_id

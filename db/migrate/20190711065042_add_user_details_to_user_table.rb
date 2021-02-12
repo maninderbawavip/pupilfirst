@@ -1,4 +1,4 @@
-class AddUserDetailsToUserTable < ActiveRecord::Migration[6.0.3][5.2]
+class AddUserDetailsToUserTable < ActiveRecord::Migration[6.0][5.2]
 
   def change
     add_column :users, :name, :string

@@ -1,4 +1,4 @@
-class DropJoinTableFacultyStartups < ActiveRecord::Migration[6.0.3][5.2]
+class DropJoinTableFacultyStartups < ActiveRecord::Migration[6.0][5.2]
   def change
     drop_join_table(:faculty, :startups) do |t|
       t.index :startup_id

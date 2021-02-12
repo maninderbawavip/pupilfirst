@@ -1,4 +1,4 @@
-class RemoveMorePartnershipFieldsFromUser < ActiveRecord::Migration[6.0.3]
+class RemoveMorePartnershipFieldsFromUser < ActiveRecord::Migration[6.0]
   def up
     remove_column :users, :is_director
     remove_column :users, :number_of_shares

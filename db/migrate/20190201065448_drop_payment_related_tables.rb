@@ -1,4 +1,4 @@
-class DropPaymentRelatedTables < ActiveRecord::Migration[6.0.3][5.2]
+class DropPaymentRelatedTables < ActiveRecord::Migration[6.0][5.2]
   def change
     drop_table :coupon_usages
     drop_table :coupons

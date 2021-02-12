@@ -1,4 +1,4 @@
-class CreateDbConfigs < ActiveRecord::Migration[6.0.3]
+class CreateDbConfigs < ActiveRecord::Migration[6.0]
   def change
     create_table :db_configs do |t|
       t.string :key

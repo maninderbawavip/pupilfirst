@@ -1,4 +1,4 @@
-class AddQuizQuestionIdToAnswerOption < ActiveRecord::Migration[6.0.3]
+class AddQuizQuestionIdToAnswerOption < ActiveRecord::Migration[6.0]
   def change
     add_column :answer_options, :quiz_question_id, :integer
     add_index :answer_options, :quiz_question_id

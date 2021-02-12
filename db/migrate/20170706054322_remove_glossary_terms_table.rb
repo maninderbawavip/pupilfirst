@@ -1,4 +1,4 @@
-class RemoveGlossaryTermsTable < ActiveRecord::Migration[6.0.3][5.1]
+class RemoveGlossaryTermsTable < ActiveRecord::Migration[6.0][5.1]
   def up
     drop_table :glossary_terms
   end

@@ -1,4 +1,4 @@
-class CreateStartupLinks < ActiveRecord::Migration[6.0.3]
+class CreateStartupLinks < ActiveRecord::Migration[6.0]
   def change
     create_table :startup_links do |t|
       t.references :startup, index: true

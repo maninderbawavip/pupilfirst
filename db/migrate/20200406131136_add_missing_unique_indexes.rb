@@ -1,4 +1,4 @@
-class AddMissingUniqueIndexes < ActiveRecord::Migration[6.0]
+class AddMissingUniqueIndexes < ActiveRecord::Migration[6.0.3][6.0]
   def change
     add_index :applicants, %i[email course_id], unique: true
     remove_index :levels, :number

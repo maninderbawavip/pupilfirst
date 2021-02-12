@@ -1,4 +1,4 @@
-class AddLevelZeroColumnsToTarget < ActiveRecord::Migration[5.0]
+class AddLevelZeroColumnsToTarget < ActiveRecord::Migration[6.0.3][5.0]
   def change
     add_column :targets, :key, :string
     add_column :targets, :link_to_complete, :string

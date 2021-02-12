@@ -1,4 +1,4 @@
-class DropName < ActiveRecord::Migration
+class DropName < ActiveRecord::Migration[6.0.3]
   def up
     drop_table :names
   end

@@ -1,4 +1,4 @@
-class AddLegalRegisteredNameToStartups < ActiveRecord::Migration
+class AddLegalRegisteredNameToStartups < ActiveRecord::Migration[6.0.3]
   def change
     add_column :startups, :legal_registered_name, :string
   end

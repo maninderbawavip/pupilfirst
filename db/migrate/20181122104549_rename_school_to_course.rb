@@ -1,4 +1,4 @@
-class RenameSchoolToCourse < ActiveRecord::Migration[5.2]
+class RenameSchoolToCourse < ActiveRecord::Migration[6.0.3][5.2]
   def change
     rename_table :schools, :courses
     rename_column :levels, :school_id, :course_id

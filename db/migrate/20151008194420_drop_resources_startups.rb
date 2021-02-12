@@ -1,4 +1,4 @@
-class DropResourcesStartups < ActiveRecord::Migration
+class DropResourcesStartups < ActiveRecord::Migration[6.0.3]
   def up
     drop_table :resources_startups
   end

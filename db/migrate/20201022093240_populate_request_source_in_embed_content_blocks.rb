@@ -1,4 +1,4 @@
-class PopulateRequestSourceInEmbedContentBlocks < ActiveRecord::Migration[6.0]
+class PopulateRequestSourceInEmbedContentBlocks < ActiveRecord::Migration[6.0.3][6.0]
   class ContentBlock < ApplicationRecord
   end
 

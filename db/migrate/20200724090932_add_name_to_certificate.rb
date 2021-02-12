@@ -1,4 +1,4 @@
-class AddNameToCertificate < ActiveRecord::Migration[6.0]
+class AddNameToCertificate < ActiveRecord::Migration[6.0.3][6.0]
   class Certificate < ApplicationRecord
   end
 

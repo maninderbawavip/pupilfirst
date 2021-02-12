@@ -1,4 +1,4 @@
-class RemoveMaximumLevelFromStartup < ActiveRecord::Migration[5.1]
+class RemoveMaximumLevelFromStartup < ActiveRecord::Migration[6.0.3][5.1]
   def up
     remove_reference :startups, :maximum_level, references: :levels, index: true
   end

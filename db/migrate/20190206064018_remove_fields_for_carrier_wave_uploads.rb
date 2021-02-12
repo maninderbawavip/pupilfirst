@@ -1,4 +1,4 @@
-class RemoveFieldsForCarrierWaveUploads < ActiveRecord::Migration[5.2]
+class RemoveFieldsForCarrierWaveUploads < ActiveRecord::Migration[6.0.3][5.2]
   def change
     remove_column :founders, :college_identification, :string
     remove_column :founders, :identification_proof, :string

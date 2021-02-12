@@ -1,4 +1,4 @@
-class AddRefundedToPayment < ActiveRecord::Migration[5.0]
+class AddRefundedToPayment < ActiveRecord::Migration[6.0.3][5.0]
   def change
     add_column :payments, :refunded, :boolean
   end

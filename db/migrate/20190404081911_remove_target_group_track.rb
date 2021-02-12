@@ -1,4 +1,4 @@
-class RemoveTargetGroupTrack < ActiveRecord::Migration[5.2]
+class RemoveTargetGroupTrack < ActiveRecord::Migration[6.0.3][5.2]
   def up
     remove_reference :target_groups, :track
     drop_table :tracks

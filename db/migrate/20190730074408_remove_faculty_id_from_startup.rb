@@ -1,4 +1,4 @@
-class RemoveFacultyIdFromStartup < ActiveRecord::Migration[5.2]
+class RemoveFacultyIdFromStartup < ActiveRecord::Migration[6.0.3][5.2]
   def up
     remove_column :startups, :faculty_id, :bigint
   end

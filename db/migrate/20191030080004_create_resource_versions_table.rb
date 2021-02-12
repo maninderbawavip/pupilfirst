@@ -1,4 +1,4 @@
-class CreateResourceVersionsTable < ActiveRecord::Migration[6.0]
+class CreateResourceVersionsTable < ActiveRecord::Migration[6.0.3][6.0]
   def change
     create_table :resource_versions do |t|
       t.jsonb :value

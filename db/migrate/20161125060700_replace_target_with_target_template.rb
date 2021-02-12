@@ -1,4 +1,4 @@
-class ReplaceTargetWithTargetTemplate < ActiveRecord::Migration[5.0]
+class ReplaceTargetWithTargetTemplate < ActiveRecord::Migration[6.0.3][5.0]
   def change
     remove_column :timeline_events, :target_id
     drop_table :targets

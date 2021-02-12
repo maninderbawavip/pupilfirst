@@ -1,4 +1,4 @@
-class AddTimestampsToUser < ActiveRecord::Migration[5.2]
+class AddTimestampsToUser < ActiveRecord::Migration[6.0.3][5.2]
   def change
     add_column :users, :created_at, :datetime
     add_column :users, :updated_at, :datetime

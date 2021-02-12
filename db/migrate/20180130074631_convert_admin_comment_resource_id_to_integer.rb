@@ -1,4 +1,4 @@
-class ConvertAdminCommentResourceIdToInteger < ActiveRecord::Migration[5.1]
+class ConvertAdminCommentResourceIdToInteger < ActiveRecord::Migration[6.0.3][5.1]
   def up
     # Create a temporary column and create a composite index for it.
     add_column :active_admin_comments, :resource_id_i, :integer

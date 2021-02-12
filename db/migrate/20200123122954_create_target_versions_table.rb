@@ -1,4 +1,4 @@
-class CreateTargetVersionsTable < ActiveRecord::Migration[6.0]
+class CreateTargetVersionsTable < ActiveRecord::Migration[6.0.3][6.0]
   class Target < ActiveRecord::Base
     has_many :content_versions, dependent: :destroy
     has_many :content_blocks, through: :content_versions

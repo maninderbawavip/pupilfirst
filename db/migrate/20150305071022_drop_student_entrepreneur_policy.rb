@@ -1,4 +1,4 @@
-class DropStudentEntrepreneurPolicy < ActiveRecord::Migration
+class DropStudentEntrepreneurPolicy < ActiveRecord::Migration[6.0.3]
   def change
     drop_table :student_entrepreneur_policies
   end

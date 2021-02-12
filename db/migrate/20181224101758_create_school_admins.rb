@@ -1,4 +1,4 @@
-class CreateSchoolAdmins < ActiveRecord::Migration[5.2]
+class CreateSchoolAdmins < ActiveRecord::Migration[6.0.3][5.2]
   def change
     create_table :school_admins do |t|
       t.references :user, foreign_key: true

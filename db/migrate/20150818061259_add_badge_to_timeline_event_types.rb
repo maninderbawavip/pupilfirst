@@ -1,4 +1,4 @@
-class AddBadgeToTimelineEventTypes < ActiveRecord::Migration
+class AddBadgeToTimelineEventTypes < ActiveRecord::Migration[6.0.3]
   def change
     add_column :timeline_event_types, :badge, :string
   end

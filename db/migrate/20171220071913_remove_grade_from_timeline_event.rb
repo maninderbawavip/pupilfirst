@@ -1,4 +1,4 @@
-class RemoveGradeFromTimelineEvent < ActiveRecord::Migration[5.1]
+class RemoveGradeFromTimelineEvent < ActiveRecord::Migration[6.0.3][5.1]
   def change
     remove_column :timeline_events, :grade, :string
   end

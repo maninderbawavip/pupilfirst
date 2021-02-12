@@ -1,4 +1,4 @@
-class AddResetPasswordTokenToUser < ActiveRecord::Migration[5.2]
+class AddResetPasswordTokenToUser < ActiveRecord::Migration[6.0.3][5.2]
   def up
     # Device Recoverable
     add_column :users, :reset_password_token, :string

@@ -1,4 +1,4 @@
-class RemoveIsFounderFromFounders < ActiveRecord::Migration
+class RemoveIsFounderFromFounders < ActiveRecord::Migration[6.0.3]
   def change
     remove_column :founders, :is_founder, :boolean
   end

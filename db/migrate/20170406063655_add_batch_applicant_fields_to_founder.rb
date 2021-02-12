@@ -1,4 +1,4 @@
-class AddBatchApplicantFieldsToFounder < ActiveRecord::Migration[5.0]
+class AddBatchApplicantFieldsToFounder < ActiveRecord::Migration[6.0.3][5.0]
   def change
     add_column :founders, :fee_payment_method, :string
     add_column :founders, :parent_name, :string

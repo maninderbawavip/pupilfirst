@@ -1,4 +1,4 @@
-class CreateFacultyStartupJoinTable < ActiveRecord::Migration[5.1]
+class CreateFacultyStartupJoinTable < ActiveRecord::Migration[6.0.3][5.1]
   def change
     create_table :faculty_startups, id: false do |t|
       t.belongs_to :faculty, index: true

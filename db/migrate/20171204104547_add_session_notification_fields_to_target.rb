@@ -1,4 +1,4 @@
-class AddSessionNotificationFieldsToTarget < ActiveRecord::Migration[5.1]
+class AddSessionNotificationFieldsToTarget < ActiveRecord::Migration[6.0.3][5.1]
   def change
     add_column :targets, :google_calendar_event_id, :string
     add_column :targets, :feedback_asked_at, :datetime

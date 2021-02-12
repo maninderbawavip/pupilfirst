@@ -1,4 +1,4 @@
-class DropBatchesTable < ActiveRecord::Migration[5.1]
+class DropBatchesTable < ActiveRecord::Migration[6.0.3][5.1]
   def change
     drop_table :batches
   end

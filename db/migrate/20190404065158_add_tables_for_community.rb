@@ -1,4 +1,4 @@
-class AddTablesForCommunity < ActiveRecord::Migration[5.2]
+class AddTablesForCommunity < ActiveRecord::Migration[6.0.3][5.2]
   def up
     create_table :communities do |t|
       t.string :name

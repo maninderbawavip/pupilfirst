@@ -1,4 +1,4 @@
-class RemoveForeignKeyFromOriginalStartupId < ActiveRecord::Migration[5.1]
+class RemoveForeignKeyFromOriginalStartupId < ActiveRecord::Migration[6.0.3][5.1]
   def up
     remove_foreign_key :payments, column: :original_startup_id
   end

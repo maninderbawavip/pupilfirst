@@ -1,4 +1,4 @@
-class DropSixwaysTables < ActiveRecord::Migration[5.1]
+class DropSixwaysTables < ActiveRecord::Migration[6.0.3][5.1]
   def up
     drop_table :mooc_quiz_attempts
     drop_table :mooc_quiz_questions

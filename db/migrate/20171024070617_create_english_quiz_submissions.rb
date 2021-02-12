@@ -1,4 +1,4 @@
-class CreateEnglishQuizSubmissions < ActiveRecord::Migration[5.1]
+class CreateEnglishQuizSubmissions < ActiveRecord::Migration[6.0.3][5.1]
   def change
     create_table :english_quiz_submissions do |t|
       t.references :english_quiz_question, foreign_key: true

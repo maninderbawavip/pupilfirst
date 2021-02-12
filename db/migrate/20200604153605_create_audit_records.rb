@@ -1,4 +1,4 @@
-class CreateAuditRecords < ActiveRecord::Migration[6.0]
+class CreateAuditRecords < ActiveRecord::Migration[6.0.3][6.0]
   def change
     create_table :audit_records do |t|
       t.references :school, null: false

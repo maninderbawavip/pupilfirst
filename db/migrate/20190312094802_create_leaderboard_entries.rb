@@ -1,4 +1,4 @@
-class CreateLeaderboardEntries < ActiveRecord::Migration[5.2]
+class CreateLeaderboardEntries < ActiveRecord::Migration[6.0.3][5.2]
   def change
     create_table :leaderboard_entries do |t|
       t.references :founder, foreign_key: true

@@ -1,4 +1,4 @@
-class ChangeStageDefaultForPlayer < ActiveRecord::Migration[5.1]
+class ChangeStageDefaultForPlayer < ActiveRecord::Migration[6.0.3][5.1]
   def up
     change_column_default :players, :stage, 1
   end

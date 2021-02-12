@@ -1,4 +1,4 @@
-class RemoveStaleFounderFields < ActiveRecord::Migration[5.2]
+class RemoveStaleFounderFields < ActiveRecord::Migration[6.0.3][5.2]
   def change
     remove_column :founders, :invitation_token
     remove_column :founders, :invitation_created_at

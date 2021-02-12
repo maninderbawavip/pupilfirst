@@ -1,4 +1,4 @@
-class AddDaysBeforeBatchToApplicationStage < ActiveRecord::Migration
+class AddDaysBeforeBatchToApplicationStage < ActiveRecord::Migration[6.0.3]
   def change
     add_column :application_stages, :days_before_batch, :integer
   end

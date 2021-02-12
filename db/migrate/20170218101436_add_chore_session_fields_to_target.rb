@@ -1,4 +1,4 @@
-class AddChoreSessionFieldsToTarget < ActiveRecord::Migration[5.0]
+class AddChoreSessionFieldsToTarget < ActiveRecord::Migration[6.0.3][5.0]
   def change
     add_column :targets, :video_embed, :text
     add_column :targets, :last_session_at, :datetime

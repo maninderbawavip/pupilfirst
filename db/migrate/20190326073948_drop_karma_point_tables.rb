@@ -1,4 +1,4 @@
-class DropKarmaPointTables < ActiveRecord::Migration[5.2]
+class DropKarmaPointTables < ActiveRecord::Migration[6.0.3][5.2]
   def up
     drop_table :weekly_karma_points
     drop_table :karma_points

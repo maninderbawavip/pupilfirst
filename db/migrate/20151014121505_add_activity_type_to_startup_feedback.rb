@@ -1,4 +1,4 @@
-class AddActivityTypeToStartupFeedback < ActiveRecord::Migration
+class AddActivityTypeToStartupFeedback < ActiveRecord::Migration[6.0.3]
   def change
     add_column :startup_feedback, :activity_type, :string
   end

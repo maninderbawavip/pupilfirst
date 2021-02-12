@@ -1,4 +1,4 @@
-class AddStartupTokenToFounder < ActiveRecord::Migration
+class AddStartupTokenToFounder < ActiveRecord::Migration[6.0.3]
   def change
     add_column :founders, :startup_token, :string
     add_index :founders, :startup_token

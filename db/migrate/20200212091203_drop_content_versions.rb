@@ -1,4 +1,4 @@
-class DropContentVersions < ActiveRecord::Migration[6.0]
+class DropContentVersions < ActiveRecord::Migration[6.0.3][6.0]
   def up
     drop_table :content_versions
   end

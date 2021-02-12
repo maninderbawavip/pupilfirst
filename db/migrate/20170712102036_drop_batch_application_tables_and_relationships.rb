@@ -1,4 +1,4 @@
-class DropBatchApplicationTablesAndRelationships < ActiveRecord::Migration[5.1]
+class DropBatchApplicationTablesAndRelationships < ActiveRecord::Migration[6.0.3][5.1]
   def up
     drop_table :application_stages
     drop_table :application_submissions

@@ -1,4 +1,4 @@
-class CreateEngineeringMetrics< ActiveRecord::Migration[5.0]
+class CreateEngineeringMetrics< ActiveRecord::Migration[6.0.3][5.0]
   def change
     create_table :engineering_metrics do |t|
       t.integer :week_start

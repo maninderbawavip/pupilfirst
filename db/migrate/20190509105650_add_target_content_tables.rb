@@ -1,4 +1,4 @@
-class AddTargetContentTables < ActiveRecord::Migration[5.2]
+class AddTargetContentTables < ActiveRecord::Migration[6.0.3][5.2]
   def change
     create_table :content_blocks do |t|
       t.references :target, foreign_key: true

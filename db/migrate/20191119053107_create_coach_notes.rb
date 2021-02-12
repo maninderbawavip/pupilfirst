@@ -1,4 +1,4 @@
-class CreateCoachNotes < ActiveRecord::Migration[6.0]
+class CreateCoachNotes < ActiveRecord::Migration[6.0.3][6.0]
   def change
     create_table :coach_notes do |t|
       t.references :author

@@ -1,4 +1,4 @@
-class RemoveSharesFromPartnership < ActiveRecord::Migration
+class RemoveSharesFromPartnership < ActiveRecord::Migration[6.0.3]
   def up
     remove_column :partnerships, :shares
   end

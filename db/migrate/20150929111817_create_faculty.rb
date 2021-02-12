@@ -1,4 +1,4 @@
-class CreateFaculty < ActiveRecord::Migration
+class CreateFaculty < ActiveRecord::Migration[6.0.3]
   def change
     create_table :faculty do |t|
       t.string :name

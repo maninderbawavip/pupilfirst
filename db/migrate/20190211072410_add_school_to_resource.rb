@@ -1,4 +1,4 @@
-class AddSchoolToResource < ActiveRecord::Migration[5.2]
+class AddSchoolToResource < ActiveRecord::Migration[6.0.3][5.2]
   def change
     add_reference :resources, :school
   end

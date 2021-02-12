@@ -1,4 +1,4 @@
-class CreateStartupsCategoriesJoinTable < ActiveRecord::Migration
+class CreateStartupsCategoriesJoinTable < ActiveRecord::Migration[6.0.3]
   def change
     create_table :startups_categories, id: false do |t|
       t.integer :startup_id

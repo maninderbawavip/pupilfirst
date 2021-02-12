@@ -1,4 +1,4 @@
-class RemoveShortenedUrlsAndOtherTables < ActiveRecord::Migration[6.0]
+class RemoveShortenedUrlsAndOtherTables < ActiveRecord::Migration[6.0.3][6.0]
   class Tagging < ApplicationRecord
   end
 

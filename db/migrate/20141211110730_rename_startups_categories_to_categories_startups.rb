@@ -1,4 +1,4 @@
-class RenameStartupsCategoriesToCategoriesStartups < ActiveRecord::Migration
+class RenameStartupsCategoriesToCategoriesStartups < ActiveRecord::Migration[6.0.3]
   def change
     rename_table :startups_categories, :categories_startups
   end

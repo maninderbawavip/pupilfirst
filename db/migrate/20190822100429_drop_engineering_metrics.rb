@@ -1,4 +1,4 @@
-class DropEngineeringMetrics < ActiveRecord::Migration[5.2]
+class DropEngineeringMetrics < ActiveRecord::Migration[6.0.3][5.2]
   def up
     drop_table :engineering_metrics
   end

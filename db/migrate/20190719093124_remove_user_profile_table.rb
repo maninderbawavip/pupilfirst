@@ -1,4 +1,4 @@
-class RemoveUserProfileTable < ActiveRecord::Migration[5.2]
+class RemoveUserProfileTable < ActiveRecord::Migration[6.0.3][5.2]
   def up
     drop_table :user_profiles
   end

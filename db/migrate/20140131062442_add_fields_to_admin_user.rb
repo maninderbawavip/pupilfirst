@@ -1,4 +1,4 @@
-class AddFieldsToAdminUser < ActiveRecord::Migration
+class AddFieldsToAdminUser < ActiveRecord::Migration[6.0.3]
   def change
     add_column :admin_users, :username, :string
     add_column :admin_users, :avatar, :string

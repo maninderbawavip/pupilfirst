@@ -1,4 +1,4 @@
-class CreateTopicCategories < ActiveRecord::Migration[6.0]
+class CreateTopicCategories < ActiveRecord::Migration[6.0.3][6.0]
   def change
     create_table :topic_categories do |t|
       t.references :community, foreign_key: true, index: true, null: false

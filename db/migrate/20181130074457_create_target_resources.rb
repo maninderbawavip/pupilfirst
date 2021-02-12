@@ -1,4 +1,4 @@
-class CreateTargetResources < ActiveRecord::Migration[5.2]
+class CreateTargetResources < ActiveRecord::Migration[6.0.3][5.2]
   def change
     create_table :target_resources do |t|
       t.references :target, foreign_key: true, index: false, null: false

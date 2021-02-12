@@ -1,4 +1,4 @@
-class CreateTargetGroups < ActiveRecord::Migration[5.0]
+class CreateTargetGroups < ActiveRecord::Migration[6.0.3][5.0]
   def change
     create_table :target_groups do |t|
       t.string :name

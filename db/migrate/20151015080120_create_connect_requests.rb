@@ -1,4 +1,4 @@
-class CreateConnectRequests < ActiveRecord::Migration
+class CreateConnectRequests < ActiveRecord::Migration[6.0.3]
   def change
     create_table :connect_requests do |t|
       t.references :connect_slot, index: true, foreign_key: true

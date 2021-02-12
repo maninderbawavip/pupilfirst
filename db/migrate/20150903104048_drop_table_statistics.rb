@@ -1,4 +1,4 @@
-class DropTableStatistics < ActiveRecord::Migration
+class DropTableStatistics < ActiveRecord::Migration[6.0.3]
   def up
     drop_table :statistics
   end

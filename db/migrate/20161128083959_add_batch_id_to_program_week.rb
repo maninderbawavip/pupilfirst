@@ -1,4 +1,4 @@
-class AddBatchIdToProgramWeek < ActiveRecord::Migration[5.0]
+class AddBatchIdToProgramWeek < ActiveRecord::Migration[6.0.3][5.0]
   def change
     add_column :program_weeks, :batch_id, :integer
     add_index :program_weeks, :batch_id

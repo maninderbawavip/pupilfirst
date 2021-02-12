@@ -1,4 +1,4 @@
-class AddArchivedToResource < ActiveRecord::Migration[5.1]
+class AddArchivedToResource < ActiveRecord::Migration[6.0.3][5.1]
   def change
     add_column :resources, :archived, :boolean, default: false
     add_index :resources, :archived

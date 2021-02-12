@@ -1,4 +1,4 @@
-class ChangeQuizFieldsToText < ActiveRecord::Migration[5.2]
+class ChangeQuizFieldsToText < ActiveRecord::Migration[6.0.3][5.2]
   def up
     change_column :quiz_questions, :question, :text
     change_column :answer_options, :value, :text

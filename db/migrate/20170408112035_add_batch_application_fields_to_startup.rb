@@ -1,4 +1,4 @@
-class AddBatchApplicationFieldsToStartup < ActiveRecord::Migration[5.0]
+class AddBatchApplicationFieldsToStartup < ActiveRecord::Migration[6.0.3][5.0]
   def change
     add_column :startups, :courier_name, :string
     add_column :startups, :courier_number, :string

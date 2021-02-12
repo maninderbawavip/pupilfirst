@@ -1,4 +1,4 @@
-class AddEnableLeaderboardFlagToCourse < ActiveRecord::Migration[5.2]
+class AddEnableLeaderboardFlagToCourse < ActiveRecord::Migration[6.0.3][5.2]
   def up
     add_column :courses, :enable_leaderboard, :boolean, default: false
   end

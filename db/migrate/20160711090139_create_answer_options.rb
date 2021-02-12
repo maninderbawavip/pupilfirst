@@ -1,4 +1,4 @@
-class CreateAnswerOptions < ActiveRecord::Migration
+class CreateAnswerOptions < ActiveRecord::Migration[6.0.3]
   def change
     create_table :answer_options do |t|
 

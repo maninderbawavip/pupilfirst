@@ -1,4 +1,4 @@
-class CreateTargetPerformanceCriteriaJoinTable < ActiveRecord::Migration[5.1]
+class CreateTargetPerformanceCriteriaJoinTable < ActiveRecord::Migration[6.0.3][5.1]
   def change
     create_table :target_performance_criteria do |t|
       t.references :target, foreign_key: true

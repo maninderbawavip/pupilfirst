@@ -1,4 +1,4 @@
-class CreateProductMetrics < ActiveRecord::Migration[5.1]
+class CreateProductMetrics < ActiveRecord::Migration[6.0.3][5.1]
   def change
     create_table :product_metrics do |t|
       t.string :category

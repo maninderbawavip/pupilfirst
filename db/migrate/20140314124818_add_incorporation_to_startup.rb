@@ -1,4 +1,4 @@
-class AddIncorporationToStartup < ActiveRecord::Migration
+class AddIncorporationToStartup < ActiveRecord::Migration[6.0.3]
   def change
     add_column :startups, :dsc, :string
     add_column :startups, :company, :text

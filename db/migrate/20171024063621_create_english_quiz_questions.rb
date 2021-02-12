@@ -1,4 +1,4 @@
-class CreateEnglishQuizQuestions < ActiveRecord::Migration[5.1]
+class CreateEnglishQuizQuestions < ActiveRecord::Migration[6.0.3][5.1]
   def change
     create_table :english_quiz_questions do |t|
       t.string :question

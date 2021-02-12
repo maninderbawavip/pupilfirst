@@ -1,4 +1,4 @@
-class RemoveTechHuntTables < ActiveRecord::Migration[5.1]
+class RemoveTechHuntTables < ActiveRecord::Migration[6.0.3][5.1]
   def up
     drop_table :players
     drop_table :hunt_answers

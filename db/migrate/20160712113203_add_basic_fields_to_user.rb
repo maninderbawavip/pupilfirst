@@ -1,4 +1,4 @@
-class AddBasicFieldsToUser < ActiveRecord::Migration
+class AddBasicFieldsToUser < ActiveRecord::Migration[6.0.3]
   def change
     add_column :users, :name, :string
     add_column :users, :phone, :string

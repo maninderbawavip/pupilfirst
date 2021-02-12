@@ -1,4 +1,4 @@
-class CreateNames < ActiveRecord::Migration
+class CreateNames < ActiveRecord::Migration[6.0.3]
   def change
     create_table :names do |t|
       t.string :first_name

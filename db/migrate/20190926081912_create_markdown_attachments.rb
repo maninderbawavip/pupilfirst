@@ -1,4 +1,4 @@
-class CreateMarkdownAttachments < ActiveRecord::Migration[5.2]
+class CreateMarkdownAttachments < ActiveRecord::Migration[6.0.3][5.2]
   def change
     create_table :markdown_attachments do |t|
       t.string :token

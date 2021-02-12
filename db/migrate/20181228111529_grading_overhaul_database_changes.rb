@@ -1,4 +1,4 @@
-class GradingOverhaulDatabaseChanges < ActiveRecord::Migration[5.2]
+class GradingOverhaulDatabaseChanges < ActiveRecord::Migration[6.0.3][5.2]
   def up
     change_column :timeline_event_grades, :grade, :integer, using: 'grade::integer'
     add_column :courses, :max_grade, :integer

@@ -1,4 +1,4 @@
-class DropEnglishQuizTables < ActiveRecord::Migration[5.2]
+class DropEnglishQuizTables < ActiveRecord::Migration[6.0.3][5.2]
   def up
     remove_foreign_key :english_quiz_submissions, :answer_options
     remove_foreign_key :english_quiz_submissions, :english_quiz_questions
